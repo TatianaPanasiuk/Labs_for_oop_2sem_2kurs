@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfTovari xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tovari>
+    <organization xmlns="SEm2_LABA_2oop">яывачр</organization>
+    <strana xmlns="SEm2_LABA_2oop">пывп</strana>
+    <adres xmlns="SEm2_LABA_2oop">фыпве</adres>
+    <telefon xmlns="SEm2_LABA_2oop">(123) 456-7890</telefon>
+    <id xmlns="SEm2_LABA_2oop">95055535-f6c6-4dca-bbf5-e01d52e35135</id>
+    <Nazvanie xmlns="SEm2_LABA_2oop">вапрм</Nazvanie>
+    <InvetarniNumber xmlns="SEm2_LABA_2oop">смитлор</InvetarniNumber>
+    <Ves xmlns="SEm2_LABA_2oop">123</Ves>
+    <DataPostyplenia xmlns="SEm2_LABA_2oop">10 февраля 2022 г.</DataPostyplenia>
+    <Colichestvo xmlns="SEm2_LABA_2oop">132</Colichestvo>
+    <Cena xmlns="SEm2_LABA_2oop">243</Cena>
+    <Proizvoditel xmlns="SEm2_LABA_2oop">
+      <id>02943c38-78fe-4609-b9c4-19c79f19593d</id>
+    </Proizvoditel>
+  </tovari>
+</ArrayOfTovari>

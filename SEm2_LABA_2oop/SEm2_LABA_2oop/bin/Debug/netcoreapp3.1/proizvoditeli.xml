@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfProizvoditel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <proizvoditel>
+    <organization xmlns="SEm2_LABA_2oop">Org1</organization>
+    <strana xmlns="SEm2_LABA_2oop">Strana1</strana>
+    <adres xmlns="SEm2_LABA_2oop">adres1</adres>
+    <telefon xmlns="SEm2_LABA_2oop">09123456</telefon>
+    <id xmlns="SEm2_LABA_2oop">00000000-0000-0000-0000-000000000000</id>
+  </proizvoditel>
+  <proizvoditel>
+    <organization xmlns="SEm2_LABA_2oop">Org2</organization>
+    <strana xmlns="SEm2_LABA_2oop">Strana2</strana>
+    <adres xmlns="SEm2_LABA_2oop">adres2</adres>
+    <telefon xmlns="SEm2_LABA_2oop">34567876</telefon>
+    <id xmlns="SEm2_LABA_2oop">d260ed25-484f-4eea-ae3d-974f35d7bc69</id>
+  </proizvoditel>
+</ArrayOfProizvoditel>

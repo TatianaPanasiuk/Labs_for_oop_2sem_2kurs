@@ -1,0 +1,16 @@
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\bin\Debug\netcoreapp3.1\SEm2_LABA_2oop.exe
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\bin\Debug\netcoreapp3.1\SEm2_LABA_2oop.deps.json
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\bin\Debug\netcoreapp3.1\SEm2_LABA_2oop.runtimeconfig.json
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\bin\Debug\netcoreapp3.1\SEm2_LABA_2oop.runtimeconfig.dev.json
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\bin\Debug\netcoreapp3.1\SEm2_LABA_2oop.dll
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\bin\Debug\netcoreapp3.1\SEm2_LABA_2oop.pdb
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\obj\Debug\netcoreapp3.1\SEm2_LABA_2oop.csproj.AssemblyReference.cache
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\obj\Debug\netcoreapp3.1\SEm2_LABA_2oop.Form1.resources
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\obj\Debug\netcoreapp3.1\SEm2_LABA_2oop.csproj.GenerateResource.cache
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\obj\Debug\netcoreapp3.1\SEm2_LABA_2oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\obj\Debug\netcoreapp3.1\SEm2_LABA_2oop.AssemblyInfoInputs.cache
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\obj\Debug\netcoreapp3.1\SEm2_LABA_2oop.AssemblyInfo.cs
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\obj\Debug\netcoreapp3.1\SEm2_LABA_2oop.csproj.CoreCompileInputs.cache
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\obj\Debug\netcoreapp3.1\SEm2_LABA_2oop.dll
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\obj\Debug\netcoreapp3.1\SEm2_LABA_2oop.pdb
+C:\Users\Super Salmon\source\repos\SEm2_LABA_2oop\SEm2_LABA_2oop\obj\Debug\netcoreapp3.1\SEm2_LABA_2oop.genruntimeconfig.cache
