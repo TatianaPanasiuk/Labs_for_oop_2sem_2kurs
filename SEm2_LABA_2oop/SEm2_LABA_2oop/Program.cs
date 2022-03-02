@@ -35,7 +35,7 @@ namespace SEm2_LABA_2oop
         public static void Serialize<T>(T obj, string filename)
         {
             XmlSerializer formatter = new XmlSerializer(typeof(T));
-            using (FileStream fs = new FileStream(filename, FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream(filename, FileMode.Create))
             {
                 formatter.Serialize(fs, obj);
             }

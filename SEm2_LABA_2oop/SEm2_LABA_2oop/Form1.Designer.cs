@@ -36,9 +36,6 @@ namespace SEm2_LABA_2oop
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.radioBig = new System.Windows.Forms.RadioButton();
-            this.radioSred = new System.Windows.Forms.RadioButton();
-            this.radioSmall = new System.Windows.Forms.RadioButton();
             this.textBoxVes = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -52,7 +49,6 @@ namespace SEm2_LABA_2oop
             this.trackBarColichestvo = new System.Windows.Forms.TrackBar();
             this.label10 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBoxStrana = new System.Windows.Forms.TextBox();
             this.textBoxOrg = new System.Windows.Forms.TextBox();
             this.textBoxAders = new System.Windows.Forms.TextBox();
@@ -62,6 +58,11 @@ namespace SEm2_LABA_2oop
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.buttonIzFile = new System.Windows.Forms.Button();
+            this.radioSred = new System.Windows.Forms.RadioButton();
+            this.radioSmall = new System.Windows.Forms.RadioButton();
+            this.radioBig = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarColichestvo)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -70,6 +71,7 @@ namespace SEm2_LABA_2oop
             // 
             this.textBoxNazvanie.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBoxNazvanie.Location = new System.Drawing.Point(76, 64);
+            this.textBoxNazvanie.MaxLength = 36;
             this.textBoxNazvanie.Name = "textBoxNazvanie";
             this.textBoxNazvanie.Size = new System.Drawing.Size(381, 34);
             this.textBoxNazvanie.TabIndex = 0;
@@ -131,45 +133,6 @@ namespace SEm2_LABA_2oop
             this.label3.TabIndex = 8;
             this.label3.Text = "Размер";
             // 
-            // radioBig
-            // 
-            this.radioBig.AutoSize = true;
-            this.radioBig.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.radioBig.Location = new System.Drawing.Point(6, 28);
-            this.radioBig.Name = "radioBig";
-            this.radioBig.Size = new System.Drawing.Size(121, 30);
-            this.radioBig.TabIndex = 9;
-            this.radioBig.TabStop = true;
-            this.radioBig.Text = "Большой";
-            this.radioBig.UseVisualStyleBackColor = true;
-            this.radioBig.CheckedChanged += new System.EventHandler(this.radioBig_CheckedChanged);
-            // 
-            // radioSred
-            // 
-            this.radioSred.AutoSize = true;
-            this.radioSred.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.radioSred.Location = new System.Drawing.Point(165, 28);
-            this.radioSred.Name = "radioSred";
-            this.radioSred.Size = new System.Drawing.Size(118, 30);
-            this.radioSred.TabIndex = 10;
-            this.radioSred.TabStop = true;
-            this.radioSred.Text = "Средний";
-            this.radioSred.UseVisualStyleBackColor = true;
-            this.radioSred.CheckedChanged += new System.EventHandler(this.radioSred_CheckedChanged);
-            // 
-            // radioSmall
-            // 
-            this.radioSmall.AutoSize = true;
-            this.radioSmall.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.radioSmall.Location = new System.Drawing.Point(319, 26);
-            this.radioSmall.Name = "radioSmall";
-            this.radioSmall.Size = new System.Drawing.Size(140, 30);
-            this.radioSmall.TabIndex = 11;
-            this.radioSmall.TabStop = true;
-            this.radioSmall.Text = "Маленький";
-            this.radioSmall.UseVisualStyleBackColor = true;
-            this.radioSmall.CheckedChanged += new System.EventHandler(this.radioSmall_CheckedChanged);
-            // 
             // textBoxVes
             // 
             this.textBoxVes.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -177,6 +140,7 @@ namespace SEm2_LABA_2oop
             this.textBoxVes.Name = "textBoxVes";
             this.textBoxVes.Size = new System.Drawing.Size(135, 34);
             this.textBoxVes.TabIndex = 12;
+            this.textBoxVes.TextChanged += new System.EventHandler(this.textBoxVes_TextChanged);
             // 
             // label4
             // 
@@ -298,17 +262,6 @@ namespace SEm2_LABA_2oop
             this.richTextBox1.TabIndex = 26;
             this.richTextBox1.Text = "";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.radioBig);
-            this.groupBox1.Controls.Add(this.radioSmall);
-            this.groupBox1.Controls.Add(this.radioSred);
-            this.groupBox1.Location = new System.Drawing.Point(76, 213);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(465, 76);
-            this.groupBox1.TabIndex = 27;
-            this.groupBox1.TabStop = false;
-            // 
             // textBoxStrana
             // 
             this.textBoxStrana.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -394,12 +347,70 @@ namespace SEm2_LABA_2oop
             this.buttonIzFile.UseVisualStyleBackColor = false;
             this.buttonIzFile.Click += new System.EventHandler(this.buttonIzFile_Click);
             // 
+            // radioSred
+            // 
+            this.radioSred.AutoSize = true;
+            this.radioSred.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.radioSred.Location = new System.Drawing.Point(165, 28);
+            this.radioSred.Name = "radioSred";
+            this.radioSred.Size = new System.Drawing.Size(118, 30);
+            this.radioSred.TabIndex = 10;
+            this.radioSred.TabStop = true;
+            this.radioSred.Text = "Средний";
+            this.radioSred.UseVisualStyleBackColor = true;
+            // 
+            // radioSmall
+            // 
+            this.radioSmall.AutoSize = true;
+            this.radioSmall.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.radioSmall.Location = new System.Drawing.Point(319, 26);
+            this.radioSmall.Name = "radioSmall";
+            this.radioSmall.Size = new System.Drawing.Size(140, 30);
+            this.radioSmall.TabIndex = 11;
+            this.radioSmall.TabStop = true;
+            this.radioSmall.Text = "Маленький";
+            this.radioSmall.UseVisualStyleBackColor = true;
+            // 
+            // radioBig
+            // 
+            this.radioBig.AutoSize = true;
+            this.radioBig.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.radioBig.Location = new System.Drawing.Point(6, 28);
+            this.radioBig.Name = "radioBig";
+            this.radioBig.Size = new System.Drawing.Size(121, 30);
+            this.radioBig.TabIndex = 9;
+            this.radioBig.TabStop = true;
+            this.radioBig.Text = "Большой";
+            this.radioBig.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioBig);
+            this.groupBox1.Controls.Add(this.radioSmall);
+            this.groupBox1.Controls.Add(this.radioSred);
+            this.groupBox1.Location = new System.Drawing.Point(76, 213);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(465, 76);
+            this.groupBox1.TabIndex = 27;
+            this.groupBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(691, 617);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(166, 29);
+            this.button1.TabIndex = 38;
+            this.button1.Text = "Очистить поля";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aquamarine;
             this.ClientSize = new System.Drawing.Size(1260, 813);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonIzFile);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -450,9 +461,6 @@ namespace SEm2_LABA_2oop
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radioBig;
-        private System.Windows.Forms.RadioButton radioSred;
-        private System.Windows.Forms.RadioButton radioSmall;
         private System.Windows.Forms.TextBox textBoxVes;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -466,7 +474,6 @@ namespace SEm2_LABA_2oop
         private System.Windows.Forms.TrackBar trackBarColichestvo;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox textBoxStrana;
         private System.Windows.Forms.TextBox textBoxOrg;
         private System.Windows.Forms.TextBox textBoxAders;
@@ -476,6 +483,11 @@ namespace SEm2_LABA_2oop
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button buttonIzFile;
+        private System.Windows.Forms.RadioButton radioSred;
+        private System.Windows.Forms.RadioButton radioSmall;
+        private System.Windows.Forms.RadioButton radioBig;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

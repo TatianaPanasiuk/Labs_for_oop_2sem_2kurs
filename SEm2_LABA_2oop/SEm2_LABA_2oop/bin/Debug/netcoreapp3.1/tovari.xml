@@ -1,19 +1,21 @@
 <?xml version="1.0"?>
 <ArrayOfTovari xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <tovari>
-    <organization xmlns="SEm2_LABA_2oop">яывачр</organization>
-    <strana xmlns="SEm2_LABA_2oop">пывп</strana>
-    <adres xmlns="SEm2_LABA_2oop">фыпве</adres>
+    <organization xmlns="SEm2_LABA_2oop">d</organization>
+    <strana xmlns="SEm2_LABA_2oop">rty</strana>
+    <adres xmlns="SEm2_LABA_2oop">d</adres>
     <telefon xmlns="SEm2_LABA_2oop">(123) 456-7890</telefon>
-    <id xmlns="SEm2_LABA_2oop">95055535-f6c6-4dca-bbf5-e01d52e35135</id>
-    <Nazvanie xmlns="SEm2_LABA_2oop">вапрм</Nazvanie>
-    <InvetarniNumber xmlns="SEm2_LABA_2oop">смитлор</InvetarniNumber>
-    <Ves xmlns="SEm2_LABA_2oop">123</Ves>
-    <DataPostyplenia xmlns="SEm2_LABA_2oop">10 февраля 2022 г.</DataPostyplenia>
-    <Colichestvo xmlns="SEm2_LABA_2oop">132</Colichestvo>
-    <Cena xmlns="SEm2_LABA_2oop">243</Cena>
+    <id xmlns="SEm2_LABA_2oop">ec9e588b-e2d7-43ec-91fe-84f30db2f0cf</id>
+    <Nazvanie xmlns="SEm2_LABA_2oop">g</Nazvanie>
+    <InvetarniNumber xmlns="SEm2_LABA_2oop">889</InvetarniNumber>
+    <Razmer xmlns="SEm2_LABA_2oop">Большой</Razmer>
+    <Ves xmlns="SEm2_LABA_2oop">780</Ves>
+    <Tip xmlns="SEm2_LABA_2oop">семена</Tip>
+    <DataPostyplenia xmlns="SEm2_LABA_2oop">1 марта 2022 г.</DataPostyplenia>
+    <Colichestvo xmlns="SEm2_LABA_2oop">317</Colichestvo>
+    <Cena xmlns="SEm2_LABA_2oop">7878</Cena>
     <Proizvoditel xmlns="SEm2_LABA_2oop">
-      <id>02943c38-78fe-4609-b9c4-19c79f19593d</id>
+      <id>0190c48f-5d7e-4928-8f4d-62efdcb4bbee</id>
     </Proizvoditel>
   </tovari>
 </ArrayOfTovari>
