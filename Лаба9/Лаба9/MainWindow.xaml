@@ -1,0 +1,27 @@
+﻿<Window x:Class="Лаба9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лаба9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="83*"/>
+        </Grid.RowDefinitions>
+        <Button Content="ValidateValueCallback и CoerceValueCallback" HorizontalAlignment="Left" Margin="145,10.2,0,0" VerticalAlignment="Top" Click="Z1_Click" Width="490" Grid.Row="1" Height="35" FontFamily="Times New Roman" FontSize="24"/>
+        <Button Content="RoutedEvent bubbling events" HorizontalAlignment="Left" Margin="262,76.2,0,0" VerticalAlignment="Top" Click="Z2_Click" Grid.Row="1" Height="54" Width="238" FontFamily="Times New Roman" FontSize="14"/>
+        <Button Content="RoutedEvent tunneling events" HorizontalAlignment="Left" Margin="262,156.2,0,0" VerticalAlignment="Top" x:Name="Z3" Click="Z3_Click" Grid.Row="1" Height="54" Width="238" FontFamily="Times New Roman" FontSize="14" />
+        <Button x:Name="button" Content="direct events" HorizontalAlignment="Left" Click="button_Click" Margin="262,235.2,0,0" Grid.Row="1" VerticalAlignment="Top" MouseEnter="button_MouseEnter" Height="59" Width="238" MouseLeave="button_MouseLeave" FontFamily="Times New Roman" FontSize="14"/>
+        <Button Content="RoutedUICommand" HorizontalAlignment="Left" Margin="262,316.2,0,0" Grid.Row="1" VerticalAlignment="Top" x:Name="Z4" Click="Z4_Click" Height="54" Width="238" FontFamily="Times New Roman" FontSize="14"/>
+
+    </Grid>
+
+
+
+
+</Window>
