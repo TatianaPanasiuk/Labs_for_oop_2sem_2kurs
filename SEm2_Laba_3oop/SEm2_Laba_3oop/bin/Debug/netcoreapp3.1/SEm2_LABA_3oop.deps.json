@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SEm2_Laba_3oop/1.0.0": {
+        "runtime": {
+          "SEm2_Laba_3oop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SEm2_Laba_3oop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

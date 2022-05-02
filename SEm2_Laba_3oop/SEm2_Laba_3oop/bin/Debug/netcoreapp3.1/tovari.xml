@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfTovar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tovar>
+    <organization>o1</organization>
+    <Id>ca7a6485-0e74-4ed5-b67b-25e71816b13a</Id>
+    <Nazvanie>6</Nazvanie>
+    <InvetarniNumber>8</InvetarniNumber>
+    <Razmer>Большой</Razmer>
+    <Ves>5</Ves>
+    <Tip>семена</Tip>
+    <DataPostyplenia>15 марта 2022 г.</DataPostyplenia>
+    <Colichestvo>100</Colichestvo>
+    <Cena>1</Cena>
+    <Proizvod>
+      <Id>bf9d6a62-6c66-4e03-b785-286ab173d0bd</Id>
+    </Proizvod>
+  </Tovar>
+</ArrayOfTovar>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfProizvoditel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Proizvoditel>
+    <Strana>sd</Strana>
+    <Adres>asf</Adres>
+    <Telefon>(124) 765-8760</Telefon>
+    <Org>o1</Org>
+  </Proizvoditel>
+  <Proizvoditel>
+    <Strana>ert</Strana>
+    <Adres>jhgf</Adres>
+    <Telefon>(254) 341-2436</Telefon>
+    <Org>o2</Org>
+  </Proizvoditel>
+</ArrayOfProizvoditel>

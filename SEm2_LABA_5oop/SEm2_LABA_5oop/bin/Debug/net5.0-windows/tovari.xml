@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ListTovarov xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tovars>
+    <Tovar>
+      <Nazvanie>fsdgf</Nazvanie>
+      <inventNumber>1243</inventNumber>
+      <TipSag>Сажинец</TipSag>
+      <TipSem>Семена</TipSem>
+      <Razmer>Большой</Razmer>
+      <Cena>12</Cena>
+      <Ves>24</Ves>
+      <Colichestvo>444</Colichestvo>
+      <Data>2022-03-29T20:13:26.4414985+03:00</Data>
+      <Result>Nazvanie: fsdgf; InventNumber: 1243; Razmer: Большой; Tip: СажинецСемена; Cena: 12; Ves: 24; Data postuplenia: 29.03.2022 20:13:26; Colichestvo: 444; Adres: asf; Organizacia: o1; Strana: sd; Telefon: (124) 765-8760</Result>
+    </Tovar>
+    <Tovar>
+      <Nazvanie>as</Nazvanie>
+      <inventNumber>12</inventNumber>
+      <TipSag>Сажинец</TipSag>
+      <TipSem>Семена</TipSem>
+      <Razmer>Большой</Razmer>
+      <Cena>1</Cena>
+      <Ves>2</Ves>
+      <Colichestvo>180</Colichestvo>
+      <Data>2022-03-01T20:13:26</Data>
+      <Result>Nazvanie: as; InventNumber: 12; Razmer: Большой; Tip: СажинецСемена; Cena: 1; Ves: 2; Data postuplenia: 01.03.2022 20:13:26; Colichestvo: 180; Adres: jhgf; Organizacia: o2; Strana: ert; Telefon: (254) 341-2436</Result>
+    </Tovar>
+  </Tovars>
+  <Proizvoditel />
+</ListTovarov>

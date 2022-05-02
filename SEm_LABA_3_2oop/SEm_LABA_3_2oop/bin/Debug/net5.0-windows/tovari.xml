@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<ListTovarov xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tovars>
+    <Tovar>
+      <Data>2022-03-23T10:48:12.4824784+03:00</Data>
+      <Nazvanie>а</Nazvanie>
+      <inventNumber>12</inventNumber>
+      <TipSag>Сажинец </TipSag>
+      <Razmer> большой</Razmer>
+      <Cena>12</Cena>
+      <Ves>12</Ves>
+      <Proizvoditeli>
+        <Strana>я</Strana>
+        <Adres>в</Adres>
+        <Telefon>(012) 345-6789</Telefon>
+        <Org>щ</Org>
+      </Proizvoditeli>
+      <Colichestvo>302</Colichestvo>
+      <Result>Nazvanie: а;InventNumber: 12;Razmer:  большой;Tip: Сажинец ;Cena: 12; Ves: 12;Data postuplenia: 23.03.2022 10:48:12;Colichestvo: 302;Adres: в;Organizacia: щ;Strana: я;Telefon: (012) 345-6789</Result>
+    </Tovar>
+    <Tovar>
+      <Data>2022-03-09T10:48:12</Data>
+      <Nazvanie>б</Nazvanie>
+      <inventNumber>120</inventNumber>
+      <TipSag>Сажинец </TipSag>
+      <TipSem>Семена </TipSem>
+      <Razmer> средний</Razmer>
+      <Cena>1</Cena>
+      <Ves>12</Ves>
+      <Proizvoditeli>
+        <Strana>а</Strana>
+        <Adres>в</Adres>
+        <Telefon>(012) 345-6789</Telefon>
+        <Org>щ</Org>
+      </Proizvoditeli>
+      <Colichestvo>302</Colichestvo>
+      <Result>Nazvanie: б;InventNumber: 120;Razmer:  средний;Tip: Сажинец Семена ;Cena: 1; Ves: 12;Data postuplenia: 09.03.2022 10:48:12;Colichestvo: 302;Adres: в;Organizacia: щ;Strana: а;Telefon: (012) 345-6789</Result>
+    </Tovar>
+    <Tovar>
+      <Data>2022-03-30T10:48:12</Data>
+      <Nazvanie>в</Nazvanie>
+      <inventNumber>120</inventNumber>
+      <TipSem>Семена </TipSem>
+      <Razmer> маленький</Razmer>
+      <Cena>16</Cena>
+      <Ves>12</Ves>
+      <Proizvoditeli>
+        <Strana>д</Strana>
+        <Adres>в</Adres>
+        <Telefon>(012) 345-6789</Telefon>
+        <Org>щ</Org>
+      </Proizvoditeli>
+      <Colichestvo>107</Colichestvo>
+      <Result>Nazvanie: в;InventNumber: 120;Razmer:  маленький;Tip: Семена ;Cena: 16; Ves: 12;Data postuplenia: 30.03.2022 10:48:12;Colichestvo: 107;Adres: в;Organizacia: щ;Strana: д;Telefon: (012) 345-6789</Result>
+    </Tovar>
+    <Tovar>
+      <Data>2022-03-30T10:48:12</Data>
+      <Nazvanie>ва</Nazvanie>
+      <inventNumber>120</inventNumber>
+      <TipSem>Семена </TipSem>
+      <Razmer> маленький</Razmer>
+      <Cena>16</Cena>
+      <Ves>12</Ves>
+      <Proizvoditeli>
+        <Strana>д</Strana>
+        <Adres>в</Adres>
+        <Telefon>(012) 345-6789</Telefon>
+        <Org>щ</Org>
+      </Proizvoditeli>
+      <Colichestvo>229</Colichestvo>
+      <Result>Nazvanie: ва;InventNumber: 120;Razmer:  маленький;Tip: Семена ;Cena: 16; Ves: 12;Data postuplenia: 30.03.2022 10:48:12;Colichestvo: 229;Adres: в;Organizacia: щ;Strana: д;Telefon: (012) 345-6789</Result>
+    </Tovar>
+    <Tovar>
+      <Data>2022-03-23T13:05:08.6579158+03:00</Data>
+      <Nazvanie>g</Nazvanie>
+      <inventNumber>12</inventNumber>
+      <Razmer> большой</Razmer>
+      <Cena>3</Cena>
+      <Ves>12</Ves>
+      <Proizvoditeli>
+        <Strana>a</Strana>
+        <Adres>u</Adres>
+        <Telefon>(123) 456-7890</Telefon>
+        <Org>p</Org>
+      </Proizvoditeli>
+      <Colichestvo>200</Colichestvo>
+      <Result>Nazvanie: g;InventNumber: 12;Razmer:  большой;Tip: ;Cena: 3; Ves: 12;Data postuplenia: 23.03.2022 13:05:08;Colichestvo: 200;Adres: u;Organizacia: p;Strana: a;Telefon: (123) 456-7890</Result>
+    </Tovar>
+  </Tovars>
+  <Proizvoditel />
+</ListTovarov>
